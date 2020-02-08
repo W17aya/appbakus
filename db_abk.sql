@@ -1,4 +1,4 @@
-CREATE TABLE 'tipe' (
+CREATE TABLE `tipe` (
 
     `id` int(11) NOT NULL,
     `created_at` timestamp NOT NULL DEFAULT CURRENT_TIMESTAMP,
@@ -15,5 +15,5 @@ ALTER TABLE `tipe`
 MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=7;
 COMMIT;
 
-INSERT INTO `tipe` (`id`, `created_at`, `status`,`tipe`, `deskripsi`) VALUES
+INSERT INTO `tipe` (`id`,`created_at`, `status`,`tipe`, `deskripsi`) VALUES
 (1, '2018-11-11 01:34:21','2018-11-11 07:34:29', 1, 'Instrumen Asesmen Lab PLB ULM','Instrumen dari Bu Mirnawati Program Studi Pendidikan Luar Biasa FKIP ULM');
